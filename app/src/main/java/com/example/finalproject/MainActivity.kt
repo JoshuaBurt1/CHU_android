@@ -21,6 +21,14 @@ import java.time.Instant
 import java.time.ZoneOffset
 import java.time.format.DateTimeFormatter
 
+// **Demonstrate the use of procedural, object-oriented, and functional programming concepts in your project.**
+// CHANGE THIS
+// The main class MainActivity is an example of object-oriented programming.
+// It is a subclass of AppCompatActivity, which means it inherits behavior from the parent class.
+// You encapsulate functionality related to the activity (UI setup, data fetching, etc.) inside this class.
+// The MainActivity class also manages its state, such as appBarConfiguration and binding,
+// which are typical instances of object-oriented behavior.
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration

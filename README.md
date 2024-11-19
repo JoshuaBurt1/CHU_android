@@ -1,9 +1,9 @@
 # Camel Health Union (CHU) Android application.
 
 # Setup
-  1. Download the file and open in Android Studio
-  2. a) To run in Android Studio: build the code and click the green triangle to run an emulated android device.
-  2. b) To run on your Android device:
+1. Download the file and open in Android Studio
+2. a) To run in Android Studio: build the code and click the green triangle to run an emulated android device.
+2. b) To run on your Android device:
 - On your device, tap build number 7 times to enable Developer Options.
 - Go to Settings -> System -> Developer options, then click enable USB debugging.
 - Connect your Android device to the computer via USB.

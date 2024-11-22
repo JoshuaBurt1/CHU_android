@@ -5,17 +5,13 @@ import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
 
-// Retrofit API service interface
+//HTTP Methods:
+//GET user information and display in app
+//POST new users and new information to the Server -> Database
 interface ApiService {
-    @GET("/users")
+    @GET("users")
     suspend fun getUsers(): List<User>
-
-    @GET("/heartrates")
-    suspend fun getHeartRates(): List<HeartRate>
 
     @POST("/users")
     suspend fun postUser(@Body user: User): Response<User>
-
-    @POST("/heartrates")
-    suspend fun postHeartRate(@Body heartRate: HeartRate): Response<HeartRate>
 }

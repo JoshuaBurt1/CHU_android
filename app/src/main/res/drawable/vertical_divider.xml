@@ -1,0 +1,5 @@
+<!-- res/drawable/vertical_divider.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:width="0.1px" />
+    <solid android:color="#d3d3d3" />
+</shape>

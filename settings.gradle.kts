@@ -16,8 +16,12 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        flatDir { dirs("libs") }  // Required for local AAR file support
+        maven { url = uri("https://jitpack.io") }  // Add JitPack repository
     }
 }
 
 rootProject.name = "FinalProject"
 include(":app")
+
+

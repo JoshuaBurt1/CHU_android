@@ -1,4 +1,4 @@
-package com.example.finalproject.ui.slideshow
+package com.example.finalproject.ui.all_data
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

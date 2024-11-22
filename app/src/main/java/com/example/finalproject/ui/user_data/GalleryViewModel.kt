@@ -1,4 +1,4 @@
-package com.example.finalproject.ui.gallery
+package com.example.finalproject.ui.user_data
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

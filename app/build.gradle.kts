@@ -59,4 +59,7 @@ dependencies {
     // OkHttp (for logging and debugging)
     implementation(libs.logging.interceptor)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+
+    //For graphs
+    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0") // Use JitPack URL
 }

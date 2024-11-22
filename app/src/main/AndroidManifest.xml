@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
 
-        <!-- Fitbit authorization -->
+        <!-- Fitbit authorization
         <activity android:name=".AuthorizationActivity"
             android:exported="true">
             <intent-filter>
@@ -37,7 +37,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="fitbit" android:host="oauth2" />
             </intent-filter>
-        </activity>
+        </activity>-->
 
         <!-- Main Activity -->
         <activity

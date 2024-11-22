@@ -1,10 +1,10 @@
 # Camel Health Union (CHU) Android application.
 Two issues can cause http request failures:
 1. The fitbitAccessToken located in HomeFramework needs to be refreshed every 8 hours. https://dev.fitbit.com/build/reference/web-api/troubleshooting-guide/oauth2-tutorial/
+Plan: To login with Fitbit: Enter client ID (required - this is the users name/password), then a function to get a new fitbitAccessToken on login - Toast fitbitAccessToken obtained, data updated. If the user is still on the app for a long time, a refresh of the fitbitAccessToken must occur within 8 hours.
 2. If https://chu-server.onrender.com/ is running, all that is needed is to download these files, open in Android Studio, then transfer to your phone.
 - If https://chu-server.onrender.com/ is not running or has high latency, then the recommended approach is to download CHU_server, deploy in your own Render instance with your own MongoDB connection string, then run in Android Studio emulator.
-
-Issues will remain until: 1. function to refresh the fitbitAccessToken is made and 2. direct client to database connection is made
+Plan: direct client to database connection is made using Firestore or similar tech.
 
 # Setup
 1. Download the file and open in Android Studio

@@ -2,7 +2,9 @@
 Two issue can cause http request failures:
 1. The fitbitAccessToken located in HomeFramework needs to be refreshed every 8 hours. https://dev.fitbit.com/build/reference/web-api/troubleshooting-guide/oauth2-tutorial/
 2. If https://chu-server.onrender.com/ is running, all that is needed is to download these files, open in Android Studio, then transfer to your phone.
-- If https://chu-server.onrender.com/ is not running or has high latency, then the recommended approach is to download CHU_server, deploy in your own Render instance with your own MongoDB connection string.
+- If https://chu-server.onrender.com/ is not running or has high latency, then the recommended approach is to download CHU_server, deploy in your own Render instance with your own MongoDB connection string, then run in Android Studio emulator.
+
+- Issues will remain until: 1. function to refresh the fitbitAccessToken and 2. direct client to database connection 
 
 # Setup
 1. Download the file and open in Android Studio

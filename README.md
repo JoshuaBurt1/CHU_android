@@ -1,4 +1,6 @@
 # Camel Health Union (CHU) Android application.
+- If https://chu-server.onrender.com/ is running, all that is needed is to download these files, open in Android Studio, then transfer to your phone.
+- If https://chu-server.onrender.com/ is not running or has high latency, then the recommended approach is to download CHU_server, deploy in your own Render instance with your own MongoDB connection string.
 
 # Setup
 1. Download the file and open in Android Studio
